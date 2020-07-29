@@ -2,12 +2,22 @@
     color: #ffffff;
     width: 20rem ;
     background-color: #bf07ac;
-    height: 50px;
-    margin: 20px auto;
-    border-radius: 5px;
+    height: 3.5rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
 }
 
 .list p{
-    padding:10px ;
-    
+    padding:1rem ;
+    position: relative;    
+}
+
+.list p span{
+    position: absolute;
+    right: 10px;
+}
+
+.icons{
+    margin: 0 5px;
+    font-size: 1.5rem;
 }
